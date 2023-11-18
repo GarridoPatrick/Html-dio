@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <title>INICIO</title>
+    </head>
+    <body>
+        <h1 id="inicio">ÍNDICE</h1>
+        <hr>
+        <h2>Sobre HTML</h2>
+        <p><mark>Linguagem de marcação de hiper-texto.</mark> Serve para dar instruções ao navegador sobre como se comportar dentro de uma pagina.</p>
+        <ul>
+            <li><a href=#surgimento>Como Surgiu ?</a></li>
+            <li><a href=#utilidade>Para que serve ?</a></li>
+            <li><a href=#tags>Principais Tags:</a></li>
+        </ul>
+       <h2 id=surgimento>Como Surgiu ?</h2><a href=#inicio><sub>VOLTAR</sub></a>
+       <p>Tim Berners-Lee (físico britânico) criou o HTML original (e outros protocolos associados como o HTTP), numa estação NeXTcube, usando o ambiente de desenvolvimento NeXTSTEP.</p>
+       <p>Tendo antes uma flexibilidade maior em relação a sintaxe, com o passar do tempo com o aumento da criação HTML, foi necessario ter padrões mais rigidos. Com a retrocompatibilidade, os navegadores atuais/diferentes, conseguem interpretar os codigos de forma mais precisa.</p>
+       <p>A linguagem foi definida em especificações formais na década de 1990, inspiradas nas propostas originais de Tim Berners-Lee em criar uma linguagem baseada em SGML para a Internet. A primeira publicação foi esboçada por Berners-Lee e Dan Connolly e publicada em 1993 na IETF, como uma aplicação formal para o SGML (com uma DTD em SGML definindo a gramática). A IETF criou um grupo de trabalho para o HTML no ano seguinte, e publicou o HTML 2.0 em 1995. Desde 1996, as especificações HTML vêm sendo mantidas, com o auxílio de fabricantes de software, pelo World Wide Web Consortium (W3C).[1] Apesar disso, em 2000 a linguagem tornou-se também uma norma internacional (ISO/IEC 15445:2000). A recomendação HTML 4.01 foi publicada no final de 1999 pelo W3C. Uma errata ainda foi lançada em 2001.
+
+Desde a publicação do HTML 3.5 no final de 1997, o grupo de trabalho da W3C tem cada vez mais — e de 2002 a 2006, de forma exclusiva — focado no desenvolvimento do XHTML, uma especificação HTML baseada em XML que é considerada pela W3C como um sucessor do HTML.[2][3][4] O XHTML faz uso de uma sintaxe mais rigorosa e menos ambígua para tornar o HTML mais simples de ser processado e estendido.
+
+Em janeiro de 2008 o W3C publicou a especificação do HTML5 como Working Draft. Apesar de sua sintaxe ser semelhante à de SGML, o HTML5 abandonou qualquer tentativa de ser uma aplicação SGML e definiu explicitamente sua própria serialização "html", além de uma alternativa baseada em XML, o XHTML5.</p>
+        <blockquote><a href=https://pt.wikipedia.org/wiki/HTML target=_blank title="Click para ler completo">Referencia Wikipedia</a></blockquote>
+        <h2 id="utilidade">Pra que serve?</h2><sub><a href=#inicio> VOLTAR</a></sub>
+        <P><mark>Hiper-texto</mark>é ligação de outros links em uma pagina. O html vem pra organizar isso, dando instruções mais precisas ao navegador sobre o que fazer, sendo possivel acrescentar textos, imagens, links para paginas tanto dentro, quanto fora do seu site.</P>
+        <p>Outras linguagens somadas ao html, vão tornar o visual e a experiencia mais bela e interativa, são exemplos do <a href=https://developer.mozilla.org/pt-BR/docs/Web/CSS title="Click para saber mais sobre CSS"><u>css</u></a> e <a href=https://developer.mozilla.org/pt-BR/docs/Web/JavaScript title="click para saber mais sobre JavaScript"><u>javascript</u></a>,respectivamente.
+        O html vai ser responsavel pela marcação, conteúdo, textos, imagens, links, é atraves dessa linguagem que o navegador interpreta, poeticamente falando, html seria a alma, a intenção. Css vem como seu corpo, roupa, vem pra tornar a pagina mais bonita, ter uma estetica segundo a vontade do criador. O JavaScript vem como as ações, o comportamento.</p>
+        <h2 id="tags">Principais tags</h2><sub><a href=#inicio>VOLTAR</a></sub>
+        <h3>O que são tags?</h3>
+        <p>Tags são as funções desempenhada, sendo acionada por comandos escritos, dentro do documento html, para ser interpretado pelo navegador. Dentre essas tags, existem as estruturais que sempre estarão presente</p>
+        <p>< html> - marca o inicio de uma pagina html.</p>
+            < head> - marca inicio de um cabeçalho <p></p>
+                < title> titulo da aba < /title> <p></p>
+            < /head> - fecha cabeçalho <p></p>
+            < body> - a partir daqui será tudo que estará na sua pagina <p></p>
+            < /body> - marca onde será o fim do corpo da sua pagina.<p></p>
+        < /html> - fecha sua pagina<p></p>
+        <h3><strong>Instruções adicionais</strong></h3><p></p>
+        Toda tag de abertura tem que estar dentro de "< >", e a de fechamento dentro de "< />".<strong> (Desiderar as aspas)</strong>
+        <h4><strong>Tags de textos</strong></h4><p></p>
+        u - sublinha<p></p>
+        p - passar para linha abaixo ou paragrafo.<p></p>
+        i - italico<p></p>
+        strong - negrito <p></p>
+        mark - marcar texto <p></p>
+        h1 a h6 - sao titulos, sendo o h1 o maior, principal, e h6 o menor.<p></p>
+        del - risca a palvra no meio como se fosse correção.<p></p>
+        ins - é a correção da suposta palavra errada.<strong><sub>Exemplo</sub></strong><p></p>   
+    Minha cor favorita é <del>azul</del> <ins>vermelha</ins>!<p></p>
+       abbr - você mostra pro navegador que aquela palavra se trava de uma abreviação <strong><sub>Exemplo</sub></strong><p></p>
+       A cidade de <abbr title="São Paulo">SP</abbr> é a maior cidade do Brasil.<p></p>
+       top - faz a palavra ficar um nivel acima das outras<p></p>
+       sub - faz a palavra ficar um nivel abaixo das outras.<p></p>
+       <a href=#inicio>VOLTAR</a></sub>
+    
+    </body>
+
+
+</html>
